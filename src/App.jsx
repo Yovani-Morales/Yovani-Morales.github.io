@@ -9,8 +9,19 @@ function App() {
   return (
     <>
       <div id="particles-js" className="w-screen h-screen fixed top-0 -z-10"></div>
-      <div className="bg-red-500">
-        <h1>Hello World</h1>
+      <div className="">
+        <header>
+          <nav></nav>
+          <section></section>
+        </header>
+        <main>
+          <section></section>
+          <section></section>
+          <section></section>
+        </main>
+        <footer>
+          <section></section>
+        </footer>
       </div>
     </>
   )
