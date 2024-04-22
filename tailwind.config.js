@@ -8,6 +8,11 @@ export default {
     extend: {
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
+      },
+      colors: {
+        'color-black': '#0d0e10',
+        'color-purple': '#6127d1',
+        '': '',
       }
     },
   },
