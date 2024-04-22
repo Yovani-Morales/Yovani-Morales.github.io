@@ -1,3 +1,4 @@
+import { Header } from "./components/Header/Header";
 import { useEffect } from "react";
 
 function App() {
@@ -10,10 +11,7 @@ function App() {
     <>
       <div id="particles-js" className="w-screen h-screen fixed top-0 -z-10"></div>
       <div className="">
-        <header>
-          <nav></nav>
-          <section></section>
-        </header>
+        <Header />
         <main>
           <section></section>
           <section></section>
