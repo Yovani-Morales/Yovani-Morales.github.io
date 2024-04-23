@@ -12,7 +12,8 @@ export default {
       colors: {
         'color-black': '#0d0e10',
         'color-purple': '#6127d1',
-        '': '',
+        'color-very-gray': '#1d1c20',
+        'color-gray': '#71767b',
       }
     },
   },
