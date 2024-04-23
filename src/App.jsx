@@ -1,4 +1,5 @@
 import { Header } from "./components/Header/Header";
+import { Main } from "./components/Main/Main";
 import { useEffect } from "react";
 
 function App() {
@@ -12,11 +13,12 @@ function App() {
       <div id="particles-js" className="w-screen h-screen fixed top-0 -z-10"></div>
       <div className="">
         <Header />
-        <main>
+        <Main />
+        {/* <main>
           <section></section>
           <section></section>
           <section></section>
-        </main>
+        </main> */}
         <footer>
           <section></section>
         </footer>
