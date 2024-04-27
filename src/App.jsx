@@ -14,11 +14,6 @@ function App() {
       <div className="">
         <Header />
         <Main />
-        {/* <main>
-          <section></section>
-          <section></section>
-          <section></section>
-        </main> */}
         <footer>
           <section></section>
         </footer>
