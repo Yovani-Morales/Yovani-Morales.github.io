@@ -1,0 +1,35 @@
+[
+  {
+    "content": {
+      "title": "Twitter UI Clone",
+      "description": "Clon de la IU de Twitter (X) adaptado a diferentes resoluciones de pantalla.",
+      "urlIMG": "src/assets/imgs/demos/twitter-demo.jpg"
+    },
+    "footer": {
+      "technologies": ["React", "Tailwind"],
+      "urls": {"demo": "https://yovani-morales.github.io/twitter-ui-clone/", "github": "https://github.com/Yovani-Morales/twitter-ui-clone/"}
+    }
+  },
+  {
+    "content": {
+      "title": "Cho Han",
+      "description": "Juego de apuesta tradicional japónes utilizando el patron MVC.",
+      "urlIMG": "src/assets/imgs/demos/cho-han-demo.jpg"
+    },
+    "footer": {
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "urls": {"demo": "https://yovani-morales.github.io/Cho-Han/", "github": "https://github.com/Yovani-Morales/Cho-Han/"}
+    }
+  },
+  {
+    "content": {
+      "title": "Black Phone",
+      "description": "Herramienta de OSINT para la recoleciónes de datos telefónicos utilizando una API.",
+      "urlIMG": "src/assets/imgs/demos/black-phone-demo.png"
+    },
+    "footer": {
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "urls": {"demo": "https://yovani-morales.github.io/100-proyectos-web/Black-Phone/", "github": "https://github.com/Yovani-Morales/100-proyectos-web/tree/main/Black-Phone/"}
+    }
+  }
+]
