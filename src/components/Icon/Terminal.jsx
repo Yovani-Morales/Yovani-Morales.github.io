@@ -1,36 +1,18 @@
 const Terminal = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width={50} height={50} {...props}>
-    <g transform="translate(0 -289.063)">
-      <circle
-        cx={16.607}
-        cy={301.988}
-        r={0}
-        style={{
-          opacity: 1,
-          fill: "#40cd8b",
-          fillOpacity: 1,
-          stroke: "none",
-          strokeWidth: 2,
-          strokeMiterlimit: 4,
-          strokeDasharray: "none",
-          strokeOpacity: 1,
-        }}
-      />
-      <path
-        d="M5 3c-1.108 0-2 .892-2 2v20c0 1.108.892 2 2 2h20c1.108 0 2-.892 2-2V5c0-1.108-.892-2-2-2H5zm1.875 5.396 6.52 4.026v1.635l-6.47 4.025L6 16.734l5.762-3.486L6 9.795l.875-1.399zm8.703 11.657H24v1.55h-8.422v-1.55z"
-        style={{
-          opacity: 1,
-          fill: "#fff",
-          fillOpacity: 1,
-          stroke: "none",
-          strokeWidth: 2,
-          strokeMiterlimit: 4,
-          strokeDasharray: "none",
-          strokeOpacity: 1,
-        }}
-        transform="translate(0 289.063)"
-      />
-    </g>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <title>terminal</title>
+    <path
+      fill="#2c3e50"
+      d="M3 2c-1.105 0-2 .9-2 2v16c0 1.1.895 2 2 2h18c1.105 0 2-.9 2-2V4c0-1.1-.895-2-2-2H3z"
+    />
+    <path
+      fill="#34495e"
+      d="M3 2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H3z"
+    />
+    <path
+      fill="#ecf0f1"
+      d="M4 5.125V6.25L7 8 4 9.75v1.125L9 8 4 5.125zM9 10v1h5v-1H9z"
+    />
   </svg>
 )
 export { Terminal };
