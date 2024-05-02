@@ -14,9 +14,6 @@ function App() {
       <div className="">
         <Header />
         <Main />
-        <footer>
-          <section></section>
-        </footer>
       </div>
     </>
   )
