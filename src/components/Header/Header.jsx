@@ -4,7 +4,7 @@ import { Profile } from "./Profile";
 const Header = () => {
   return (
     <header>
-      <Nav />
+      {/* <Nav /> */}
       <Profile />
     </header>
   )
