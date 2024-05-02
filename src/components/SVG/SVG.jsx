@@ -15,6 +15,9 @@ import { React } from "../Icon/React";
 import { Tailwind } from "../Icon/Tailwind";
 import { TypeScript } from "../Icon/TypeScript";
 import { Vite } from "../Icon/Vite";
+import { User } from "../Icon/User";
+import { Location } from "../Icon/Location";
+import { Guatemala } from "../Icon/Guatemala";
 
 const SVG = ({ name, className }) => {
   const svgName = name.toLowerCase();
@@ -36,6 +39,9 @@ const SVG = ({ name, className }) => {
     'tailwind': className => <Tailwind className={className} />,
     'typescript': className => <TypeScript className={className} />,
     'vite': className => <Vite className={className} />,
+    'user': className => <User className={className} />,
+    'location': className => <Location className={className} />,
+    'guatemala': className => <Guatemala className={className} />,
   }
   return (svg[svgName](className));
 }
