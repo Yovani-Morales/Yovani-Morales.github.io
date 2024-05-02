@@ -18,6 +18,11 @@ import { Vite } from "../Icon/Vite";
 import { User } from "../Icon/User";
 import { Location } from "../Icon/Location";
 import { Guatemala } from "../Icon/Guatemala";
+import { LinkedIn } from "../Icon/LinkedIn";
+import { Email } from "../Icon/Email";
+import { X } from "../Icon/X";
+import { Facebook } from "../Icon/Facebook";
+import { EmailTwo } from "../Icon/EmailTwo";
 
 const SVG = ({ name, className }) => {
   const svgName = name.toLowerCase();
@@ -42,6 +47,11 @@ const SVG = ({ name, className }) => {
     'user': className => <User className={className} />,
     'location': className => <Location className={className} />,
     'guatemala': className => <Guatemala className={className} />,
+    'linkedin': className => <LinkedIn className={className} />,
+    'email': className => <Email className={className} />,
+    'x': className => <X className={className} />,
+    'facebook': className => <Facebook className={className} />,
+    'emailtwo': className => <EmailTwo className={className} />,
   }
   return (svg[svgName](className));
 }
