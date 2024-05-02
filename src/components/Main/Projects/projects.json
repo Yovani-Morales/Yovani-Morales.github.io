@@ -7,7 +7,7 @@
     },
     "footer": {
       "technologies": ["React", "Tailwind"],
-      "urls": {"demo": "https://yovani-morales.github.io/twitter-ui-clone/", "github": "https://github.com/Yovani-Morales/twitter-ui-clone/"}
+      "urls": {"demo": "https://yovany-dev.github.io/twitter-ui-clone/", "github": "https://github.com/yovany-dev/twitter-ui-clone/"}
     }
   },
   {
@@ -18,7 +18,7 @@
     },
     "footer": {
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "urls": {"demo": "https://yovani-morales.github.io/Cho-Han/", "github": "https://github.com/Yovani-Morales/Cho-Han/"}
+      "urls": {"demo": "https://yovany-dev.github.io/Cho-Han/", "github": "https://github.com/yovany-dev/Cho-Han/"}
     }
   },
   {
@@ -29,7 +29,7 @@
     },
     "footer": {
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "urls": {"demo": "https://yovani-morales.github.io/100-proyectos-web/Black-Phone/", "github": "https://github.com/Yovani-Morales/100-proyectos-web/tree/main/Black-Phone/"}
+      "urls": {"demo": "https://yovany-dev.github.io/100-proyectos-web/Black-Phone/", "github": "https://github.com/yovany-dev/100-proyectos-web/tree/main/Black-Phone/"}
     }
   }
 ]
