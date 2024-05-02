@@ -12,7 +12,7 @@ const Profile = () => {
         <p className='max-w-[600px] text-[18px]'>Me gusta crear productos frontend sólidos y escalables con excelentes experiencias de usuario. <span className='font-bold'>Especializado en React.</span></p>
         <div className='flex gap-3'>
           <Button url={'#cv'}>Descargar CV</Button>
-          <Button url={'#linkedin'}>LinkedIn</Button>
+          <Button url={'https://github.com/yovany-dev'}>GitHub</Button>
         </div>
       </div>
       <div className='flex items-center'>
