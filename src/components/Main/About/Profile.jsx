@@ -26,7 +26,7 @@ const Profile = () => {
         </div>
       </div>
       <div>
-        <Button url={'#cv'}>Descargar CV</Button>
+        <Button url={`${import.meta.env.BASE_URL}docs/cv-yovany-morales.pdf`}>Descargar CV</Button>
       </div>
     </div>
   )
