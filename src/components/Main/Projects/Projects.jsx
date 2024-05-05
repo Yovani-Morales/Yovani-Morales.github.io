@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const Projects = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    const url = '/data/projects.json';
+    const url = `${import.meta.env.BASE_URL}data/projects.json`;
     const headers = {
       method: "GET",
       headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
