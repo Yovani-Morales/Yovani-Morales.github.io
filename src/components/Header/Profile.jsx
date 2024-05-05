@@ -17,7 +17,7 @@ const Profile = () => {
       </div>
       <div className='flex items-center'>
         <div className="w-full h-[400px] animate-[bounce_3s_infinite]">
-         <IMG src={'src/assets/imgs/astronauta.png'} alt='astronaut image' />
+         <IMG name={'astronaut'} />
         </div>
       </div>
     </section>

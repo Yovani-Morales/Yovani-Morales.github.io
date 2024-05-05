@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div className="flex flex-col items-center gap-5">
       <div className="w-[300px] h-[300px] rounded-full overflow-hidden">
-        <IMG src={'/src/assets/imgs/my-logo.jpg'} />
+        <IMG name={'my logo'} />
       </div>
       <div className="">
         <div className="flex items-center gap-4">
