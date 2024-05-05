@@ -5,7 +5,7 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', 'src/assets/particlesJS/particles.config.json');
+    particlesJS.load('particles-js', '/particlesJS/particles.config.json');
   }, []);
 
   return (
