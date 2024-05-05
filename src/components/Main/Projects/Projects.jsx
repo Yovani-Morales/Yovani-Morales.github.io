@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const Projects = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    const url = 'http://localhost:5173/src/components/main/projects/projects.json';
+    const url = '/data/projects.json';
     const headers = {
       method: "GET",
       headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
