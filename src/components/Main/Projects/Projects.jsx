@@ -17,7 +17,7 @@ const Projects = () => {
   },[]);
 
   return (
-    <section className="w-3/4 mx-auto">
+    <section className="w-3/4 mx-auto h-screen flex items-center">
       <div className="grid grid-cols-6 grid-rows-[repeat(2,_300px)] gap-8">
         <CardContainer style='col-span-3 p-10 flex items-center'>
           <h2 className="text-[75px] leading-none font-bold text-color-purple">Alguno De Mis Mejores Proyectos</h2>

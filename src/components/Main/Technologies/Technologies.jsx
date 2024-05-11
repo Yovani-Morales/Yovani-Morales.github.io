@@ -3,7 +3,7 @@ import { Item } from "./Item";
 
 const Technologies = () => {
   return (
-    <section className="w-3/4 mx-auto">
+    <section className="w-3/4 mx-auto h-screen flex items-center">
       <div className="grid grid-cols-3 grid-rows-[repeat(2,_300px)] gap-8">
         <Article className={'col-span-2 p-10'}>
           <h2 className="text-8xl font-bold text-color-purple">Mi Stack Tecnologíco</h2>

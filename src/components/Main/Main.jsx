@@ -4,7 +4,7 @@ import { About } from "./About/About";
 
 const Main = () => {
   return (
-    <main className="py-20 flex flex-col gap-20">
+    <main className="flex flex-col">
       <Projects />
       <Technologies />
       <About />
