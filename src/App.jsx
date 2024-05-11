@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div id="particles-js" className="w-screen h-screen fixed top-0 -z-10"></div>
-      <div className="">
+      <div className="max-w-[1600px] mx-auto">
         <Header />
         <Main />
       </div>
