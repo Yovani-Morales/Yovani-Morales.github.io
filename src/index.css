@@ -12,3 +12,13 @@
     background-color: #0d0e10;
   }
 }
+
+@layer components {
+  .custom-width {
+    @apply w-3/4 min-w-[300px] h-screen cs-1050:h-auto cs-1420:w-[80%] cs-1330:w-[85%] cs-1255:w-[90%] cs-780:w-[80%];
+  }
+
+  .custom-max-width {
+    @apply cs-780:max-w-[500px];
+  }
+}
