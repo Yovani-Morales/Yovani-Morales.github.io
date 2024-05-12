@@ -1,4 +1,8 @@
-# React + Vite
+# Portafolio
+
+Sitio web personal desarrollado con React y Tailwind. Usando Particles.js para una increíble animación de fondo. Proyecto inicializado con Vite.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
