@@ -15,7 +15,7 @@ const Item = ({ className, title, icons, gridCols }) => {
   });
   return (
     <Article className={"p-5 "+className}>
-      <h2 className="text-4xl text-center font-bold text-color-purple">{title}</h2>
+      <h2 className="text-4xl cs-1050:text-3xl text-center font-bold text-color-purple">{title}</h2>
       <ul className="grid gap-y-5" style={style}>
         {li}
       </ul>
