@@ -3,7 +3,7 @@ import { IMG } from "../../../IMG/IMG";
 const Content = ({ title, description, urlIMG }) => {
   return (
     <section className="flex items-center gap-3">
-      <div className="w-[150px] h-[150px] shrink-0 rounded-3xl overflow-hidden">
+      <div className="w-[150px] cs-430:w-[130px] cs-400:w-[100px] h-[150px] cs-400:h-[100px] shrink-0 rounded-3xl overflow-hidden">
         <IMG name={title.toLowerCase()} />
       </div>
       <div className="flex flex-col gap-2">
