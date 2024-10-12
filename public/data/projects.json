@@ -1,35 +1,35 @@
 [
   {
     "content": {
+      "title": "Indupasa Reportes",
+      "description": "Sistema para generar reportes para el control de visitas en la seguridad de Indupasa.",
+      "urlIMG": "src/assets/imgs/demos/indupasa-reportes-demo.jpg"
+    },
+    "footer": {
+      "technologies": ["Vue", "TypeScript", "Vuetify", "Firebase"],
+      "urls": {"demo": "https://indupasa-reportes.web.app", "github": "https://github.com/yovany-dev/indupasa-reportes-demo"}
+    }
+  },
+  {
+    "content": {
+      "title": "Rakuten TV",
+      "description": "Catálogo de películas con scroll infinito utilizando la API The Movie Database.",
+      "urlIMG": "src/assets/imgs/demos/rakuten-tv-demo.png"
+    },
+    "footer": {
+      "technologies": ["Vue", "Tailwind", "JavaScript"],
+      "urls": {"demo": "https://yovany-dev.github.io/vue-projects/rakuten-tv/dist", "github": "https://github.com/yovany-dev/vue-projects/tree/main/rakuten-tv"}
+    }
+  },
+  {
+    "content": {
       "title": "Twitter UI Clone",
       "description": "Clon de la IU de Twitter (X) adaptado a diferentes resoluciones de pantalla.",
       "urlIMG": "src/assets/imgs/demos/twitter-demo.jpg"
     },
     "footer": {
-      "technologies": ["React", "Tailwind"],
-      "urls": {"demo": "https://yovany-dev.github.io/twitter-ui-clone/", "github": "https://github.com/yovany-dev/twitter-ui-clone/"}
-    }
-  },
-  {
-    "content": {
-      "title": "Cho Han",
-      "description": "Juego de apuesta tradicional japónes utilizando el patron MVC.",
-      "urlIMG": "src/assets/imgs/demos/cho-han-demo.jpg"
-    },
-    "footer": {
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "urls": {"demo": "https://yovany-dev.github.io/Cho-Han/", "github": "https://github.com/yovany-dev/Cho-Han/"}
-    }
-  },
-  {
-    "content": {
-      "title": "Black Phone",
-      "description": "Herramienta de OSINT para la recoleciónes de datos telefónicos utilizando una API.",
-      "urlIMG": "src/assets/imgs/demos/black-phone-demo.png"
-    },
-    "footer": {
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "urls": {"demo": "https://yovany-dev.github.io/100-proyectos-web/Black-Phone/", "github": "https://github.com/yovany-dev/100-proyectos-web/tree/main/Black-Phone/"}
+      "technologies": ["React", "Tailwind", "JavaScript"],
+      "urls": {"demo": "https://yovany-dev.github.io/twitter-ui-clone", "github": "https://github.com/yovany-dev/twitter-ui-clone"}
     }
   }
 ]

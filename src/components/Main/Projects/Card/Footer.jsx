@@ -8,6 +8,10 @@ const Tecno = ({ text }) => {
     javascript: '#efd81d',
     react: '#3ebff8',
     tailwind: '#3ebff8',
+    vue: '#47ba87',
+    typescript: '#377cc8',
+    vuetify: '#7fc8ff',
+    firebase: '#ffc608',
   }
   const styles = {
     border: `solid 1px ${tecnoColors[tencoLowerCase]}`,
