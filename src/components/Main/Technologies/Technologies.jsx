@@ -16,14 +16,14 @@ const Technologies = () => {
         />
         <Item
           className={'cs-850:col-span-2'}
-          title={'Aprendiendo'}
-          icons={['Next.js', 'Node.js', 'Express.js', 'MySql']}
+          title={'Otros'}
+          icons={['Figma', 'Firebase', 'Python', 'Bash']}
           gridCols={2}
         />
         <Item
           className={'col-span-2'}
           title={'Frontend'}
-          icons={['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'TypeScript', 'Vite']}
+          icons={['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Vue', 'Vuetify', 'Tailwind']}
           gridCols={4}
         />
       </div>

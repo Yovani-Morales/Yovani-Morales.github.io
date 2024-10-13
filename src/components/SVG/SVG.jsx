@@ -23,6 +23,12 @@ import { Email } from "../Icon/Email";
 import { X } from "../Icon/X";
 import { Facebook } from "../Icon/Facebook";
 import { EmailTwo } from "../Icon/EmailTwo";
+import { Vue } from "../Icon/Vue";
+import { Vuetify } from "../Icon/Vuetify";
+import { Figma } from "../Icon/Figma";
+import { Firebase } from "../Icon/Firebase";
+import { Python } from "../Icon/Python";
+import { Bash } from "../Icon/Bash";
 
 const SVG = ({ name, className }) => {
   const svgName = name.toLowerCase();
@@ -52,6 +58,12 @@ const SVG = ({ name, className }) => {
     'x': className => <X className={className} />,
     'facebook': className => <Facebook className={className} />,
     'emailtwo': className => <EmailTwo className={className} />,
+    'vue': className => <Vue className={className} />,
+    'vuetify': className => <Vuetify className={className} />,
+    'figma': className => <Figma className={className} />,
+    'firebase': className => <Firebase className={className} />,
+    'python': className => <Python className={className} />,
+    'bash': className => <Bash className={className} />,
   }
   return (svg[svgName](className));
 }

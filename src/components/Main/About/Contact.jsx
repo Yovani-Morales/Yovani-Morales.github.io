@@ -6,7 +6,7 @@ const Contact = () => {
     'github': 'https://github.com/yovany-dev',
     'email': 'mailto:yovanymorales.contact@gmail.com',
     'x': 'https://twitter.com/yovany_dev',
-    'facebook': 'https://www.facebook.com/yovani.morales.79656',
+    'facebook': 'https://www.facebook.com/yovanymorales.dev',
   };
   const redes = ['linkedin', 'github', 'email', 'x', 'facebook'];
   const li = redes.map((name, index) => {
