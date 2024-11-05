@@ -2,7 +2,7 @@ import { SVG } from "../../SVG/SVG";
 
 const Contact = () => {
   const linkRedes = {
-    'linkedin': 'https://linkedin.com/',
+    'linkedin': 'https://www.linkedin.com/in/yovany-dev/',
     'github': 'https://github.com/yovany-dev',
     'email': 'mailto:yovanymorales.contact@gmail.com',
     'x': 'https://twitter.com/yovany_dev',
